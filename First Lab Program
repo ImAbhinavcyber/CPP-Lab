@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main()
+
+{
+ int a,b,add,subtract,multiply;
+ float divide;
+
+cout<<"enter a two numbers";
+cin>>a>>b;
+
+ add=a+b;
+ subtract=a-b;
+ multiply=a*b;
+ divide=a/(float)b;
+
+ cout<<"addition"<<add<<endl;
+ cout<<"subtraction"<<subtract<<endl;
+ cout<<"Multiplication"<<multiply<<endl;
+ cout<<"division"<<divide<<endl;
+
+ return 0;
+}
+
+ 

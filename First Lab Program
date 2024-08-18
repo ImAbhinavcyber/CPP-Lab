@@ -6,7 +6,7 @@ int main()
  int a,b,add,subtract,multiply;
  float divide;
 
-cout<<"enter a two numbers";
+cout<<"enter a two numbers"<<endl;
 cin>>a>>b;
 
  add=a+b;
@@ -14,10 +14,10 @@ cin>>a>>b;
  multiply=a*b;
  divide=a/(float)b;
 
- cout<<"addition"<<add<<endl;
- cout<<"subtraction"<<subtract<<endl;
- cout<<"Multiplication"<<multiply<<endl;
- cout<<"division"<<divide<<endl;
+ cout<<"addition="<<add<<endl;
+ cout<<"subtraction="<<subtract<<endl;
+ cout<<"Multiplication="<<multiply<<endl;
+ cout<<"division="<<divide<<endl;
 
  return 0;
 }

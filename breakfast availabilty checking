@@ -1,0 +1,65 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+void display_menu(){
+
+
+
+cout<<"monday "<<endl;
+cout<<"2) tuesday: "<<endl;
+cout<<" 3) Wednesday:"<<endl;
+cout<<"4) Thoursday: "<<endl;
+cout<<"5) Friday: "<<endl;
+cout<<"6) saturday: "<<endl;
+cout<<"7) saturday: "<<endl;
+
+}
+int main() {
+    int day;
+  display_menu();
+
+    cout<<"enter the number 1-7"<<endl;
+    cin>>day;
+    
+
+    
+    
+    switch (day){
+    case 1:
+     cout<<"available breakfast is : poha"<<endl;
+     break;
+     
+     case 2:
+     cout<<"available breakfast is : poha"<<endl;
+     break;
+     
+     case 3:
+     cout<<"available breakfast is : dosa"<<endl;
+     break;
+     
+     case 4:
+     cout<<"available breakfast is : idli"<<endl;
+     break;
+     
+     case 5:
+     cout<<"available breakfast is : upma"<<endl;
+     break;
+     
+     case 6:
+     cout<<"avilable breeakfast is :dal batti"<<endl;
+     break;
+     
+     case 7:
+     cout<<"avilable breeakfast is : menduvada"<<endl;
+     break;
+     
+     default:
+     cout<<"invailid input you entered!"<<endl;
+     break;
+    }
+
+
+
+    return 0;
+}

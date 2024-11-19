@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int age=25;//identifier
+    float height=5.9;//literal
+    cout<<"age:"<<age<<endl;//punctuation
+    return 0;//string literal "return" is a keyword
+    
+}

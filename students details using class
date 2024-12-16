@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+    class Student{
+    private:
+            string name;
+            int rollno;
+            float marks;
+    
+     public:
+            void Setdetails(){
+            cout<<"Enter studdent name: "<<endl;
+            cin>>name;
+            cout<<"enter Roll no.: "<<endl;
+            cin>>rollno;
+            cout<<"Enter marks obtained: "<<endl;
+            cin>>marks;
+    }
+    
+            void Displaydetails(){
+            cout<<"Name: "<<name<<endl;
+            cout<<"PRN: "<<rollno<<endl;
+            cout<<"Marks: "<<marks<<endl;
+            }
+    
+};
+int main(){
+            Student student;
+            student.Setdetails();
+            student.Displaydetails();
+            
+    
+  return 0;
+}
